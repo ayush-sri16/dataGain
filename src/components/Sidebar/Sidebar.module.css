@@ -1,0 +1,50 @@
+/* components/Sidebar.module.css */
+.sidebar {
+  width: 130px;
+  height: 100vh;
+  transition: width 0.3s;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+    
+  }
+  
+  .sidebar.expanded {
+    width: 300px;
+  }
+  
+  .expandButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 1px 20px;
+  }
+  
+  .ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .li {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+  }
+
+  .li:hover{
+    background-color: #eef9f9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  
+  .text {
+    margin-left: 10px;
+  }
+  
